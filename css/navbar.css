@@ -67,10 +67,3 @@ nav {
 #check {
     display: none;
 }
-
-section {
-    background: url(fondo.jpg) no-repeat;
-    background-size: cover;
-    background-position: center center;
-    height: calc(100vh - 80px);
-}
