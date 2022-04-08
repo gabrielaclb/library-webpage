@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/css/main.css">
     <link rel="stylesheet" href="/css/navbar.css">
     <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/contacts.css">
     <title>Contact Us</title>
 </head>
 
@@ -31,7 +32,63 @@
             <li><a class="links__link active" href="contacts.html">Contacts</a></li>
         </ul>
     </nav>
-    <section></section>
+    <section class="contacts__section">
+        <header class="contacts__header">
+            <h1>Have any questions?</h1>
+            <p>Let us know in what can we help you</p>
+        </header>
+        <div class="contacts__contact-us">
+            <div class="contacts__form-container">
+                <h2>Leave us a message</h2>
+                <form class="contacts__form" action="#">
+                    <div>
+                        <div class="form__input-container">
+                            <input class="form__input" type="text" name="fname" placeholder="Your First Name">
+                            <label for="fname"></label>
+                            <span class="focus-bg"></span>
+                        </div>
+                        <div class="form__input-container">
+                            <input class="form__input" type="text" name="lname" placeholder="Your Last Name">
+                            <label for="lname"></label>
+                            <span class="focus-bg"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="form__input-container">
+                            <input class="form__input" type="email" name="email" placeholder="Your Email">
+                            <label for="email"></label>
+                            <span class="focus-bg"></span>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="form__input-container">
+                            <textarea class="form__input" name="message" cols="30" rows="10"
+                                placeholder="Your message..."></textarea>
+                            <label for="message"></label>
+                            <span class="focus-bg"></span>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="contacts__social-container">
+                <p>or in our social medias</p>
+                <div class="contacts__social-medias">
+                    <a href="#" class="social-media-link">
+                        <p>Facebook</p>
+                        <i class="fa-brands fa-facebook social-media-icon"></i>
+                    </a>
+                    <a href="#" class="social-media-link">
+                        Twitter
+                        <i class="fa-brands fa-twitter social-media-icon"></i>
+                    </a>
+                    <a href="#" class="social-media-link">
+                        Instagram
+                        <i class="fa-brands fa-instagram social-media-icon"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
     <footer>
         <div class="container">
             <div class="row">

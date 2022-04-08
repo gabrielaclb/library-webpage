@@ -1,5 +1,6 @@
 .hero-section {
     width: 100%;
+    height: 500px;
     background-image: url(/fondo.jpg);
     background-size: cover;
     transform: scaleX(-1);
@@ -18,6 +19,7 @@
     padding: 5em 2em;
     background-image: linear-gradient(to right, #108e88 15%, transparent);
 }
+
 .hero > h2 {
     font-size: 3rem;
     color: hsl(177, 80%, 81%);

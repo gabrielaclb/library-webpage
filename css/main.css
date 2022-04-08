@@ -10,6 +10,6 @@
 
 body {
     display: grid;
-    grid-template-rows: 10% 500px 1fr;
+    grid-template-rows: 100px auto 1fr;
     font-family: "Poppins", sans-serif;
 }
